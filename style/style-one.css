@@ -24,7 +24,7 @@ header {
 }
 header .logo {
     font-size: 30px;
-    color: #fefefe;
+    color: #eaeaea;
     font-weight: bold;
 }
 header nav ul {
@@ -32,7 +32,7 @@ header nav ul {
 }
 header nav ul li a {
     display: inline-block;
-    color: #fefefe;
+    color: #eaeaea;
     padding: 5px 0;
     margin: auto 10px;
     border-radius: 50px;
@@ -41,12 +41,12 @@ header nav ul li a {
     text-align: center;
 }
 header nav ul li a:hover {
-  background-color: #fefefe;
+  background-color: #eaeaea;
   padding: 8px 25px;
   color: #252525;
 }
 header nav ul li a.active {
-    background-color: #fefefe;
+    background-color: #eaeaea;
     color: #252525;
     padding: 8px 10px;
 }
@@ -58,7 +58,7 @@ header nav ul li a.active {
     width: 30px;
     height: 3px;
     margin: 5px 0;
-    background: #fefefe;
+    background: #eaeaea;
 } /* END OF NAVBAR SECTION */
 
 
