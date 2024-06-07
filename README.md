@@ -1,1 +1,1 @@
-nigga
+Lagi ngapain tuhh
