@@ -59,6 +59,39 @@
     opacity: 95%;
 }
 
+/* Image Overlays */
+.image-container {
+    position: relative;
+}
+
+.image-container .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    text-align: center;
+    width: 100%;
+    opacity: 0;
+    transition: .2s;
+    background: rgba(0, 0, 0, 0.491);
+    border-radius: 15px;
+}
+
+.image-container:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: #c9efff;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
 
 /* SLIDING SECTION */
 .sliding-section {
