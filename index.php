@@ -15,11 +15,7 @@
 
         <h1 class="intro">Greetings, User!</h1>
         <p class="introDesc">
-          Disini saya membuat project kecil yang bertujuan untuk mengasah
-          kembali skill saya yang telah lama tidak diasah. Mungkin akan
-          terdapat banyak sekali kesalahan dalam website ini, tetapi saya
-          akan berusaha yang terbaik untuk mengembangkannya di kemudian hari
-          :3.
+          This is our first Front-end project, any changes in this site may look broken or incomplete.
         </p>
 
         <div class="sliding-section">
