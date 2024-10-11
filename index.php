@@ -1,4 +1,4 @@
-<body style="background-color: hsl(0, 0%, 17%);">
+<body>
 
   <?php include 'others/head.php'; ?>
   <!-- CONTENT SECTION -->
@@ -10,20 +10,11 @@
 
   <section class="one">
     <div class="container p-5 my-5">
-      <div class="contentWrapper">
-        <img
-          src="https://image.noelshack.com/fichiers/2023/29/3/1689748539-ryo28.png"
-          alt="ryo:3"
-          class="ryo" />
 
-        <h1 class="intro">Hello! nama saya Hazzl.</h1>
-        <p class="introDesc">
-          Disini saya membuat project kecil yang bertujuan untuk mengasah
-          kembali skill saya yang telah lama tidak diasah. Mungkin akan
-          terdapat banyak sekali kesalahan dalam website ini, tetapi saya
-          akan berusaha yang terbaik untuk mengembangkannya di kemudian hari
-          :3.
-        </p>
+      <div class="welcomeText">
+        <h1 class="intro">Hi, Welcome To Our Website!</h1>
+        <p class="introdesc">We create, reconstruct, and work together to build what we want.</p>
+      </div>
 
         <div class="sliding-section">
           <div class="sliding-wrapper">
@@ -34,16 +25,9 @@
             <img src="assets/silder.jpg" alt="sliding-img" class="sliding-content">
             <img src="assets/silder.jpg" alt="sliding-img" class="sliding-content">
           </div>
-        </div>
       </div>
-
-      <div class="descButton">
-        <p class="prjct-button">
-          <a href="#" target="_self">My projects</a>
-        </p>
-      </div>
-
     </div>
+
   </section>
   <!-- SECTION CONTENT ONE -->
 
@@ -195,5 +179,6 @@
   </section>
   </div>
   <!-- WRAPPER DIVISION -->
-
+   
+  <!-- <img src="assets/waveFooter.svg" alt="footerWave" class="wave"> -->
   <?php include 'others/footer.php'; ?>

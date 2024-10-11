@@ -3,7 +3,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    color: aliceblue;
+    color: #252525;
 }
 
 .hr {
@@ -12,6 +12,27 @@
     height: 2px;
     border-radius: 10px;
     margin: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.intro {
+    font-family: Bebas Neue;
+    font-weight: bold;
+    font-size: 3rem;
+    letter-spacing: 2px;
+}
+
+.introdesc {
+    font-family: cabin;
+    padding: 0px 1rem;
+    text-align: end;
+
 }
 
 /* .two {
@@ -25,17 +46,6 @@
     animation: 4s ease-in-out infinite;
     transition: .4s;
 } */
-
-/* ---- HEAD SECTION ---- */
-.logo {
-    text-decoration: none;
-    color: aliceblue;
-    font-weight: bold;
-    font-family: "pixelify sans";
-    padding: 3px;
-    font-size: 28px;
-    margin: auto 0px;
-}
 
 /* .home {
     background-color: #262626;
@@ -66,6 +76,7 @@
     overflow-x: scroll;
     overflow-y: hidden;
     width: 100%;
+    margin: .5rem 0px;
 }
 
 .sliding-section::-webkit-scrollbar {
@@ -176,12 +187,14 @@ section {
 }
 
 .list-content {
-    background-color: #282828;
-    margin: 1rem auto;
-    padding: 23px;
-    width: 95%;
-    border-radius: 5px;
-    box-shadow: 2px 1px 2px #202020;
+    padding : 1rem;
+    background: rgba(114, 255, 255, 0.14);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.4px);
+    -webkit-backdrop-filter: blur(4.4px);
+    border: 1px solid rgba(114, 255, 255, 0.1);
+    margin: 1.5rem auto;
 }
 
 .innerWrapper {
@@ -198,7 +211,7 @@ section {
 
 .cLink {
     text-decoration: none;
-    color: lightcyan;
+    color: #252525;
     display: flex;
     justify-content: end;
     padding: 0px 8px;
@@ -232,50 +245,4 @@ section {
     font-size: 10px;
     font-weight: bold;
     opacity: 90%;
-}
-
-
-
-/* ---- FOOTER SECTION ---- */
-.end {
-    background-color: #343434;
-    color: aliceblue;
-    margin-top: 4rem;
-}
-
-.Fwrapper {
-    padding: 2rem;
-}
-
-.footerNav nav {
-    display: flex;
-    flex-direction: row;
-    gap: 50%;
-}
-
-.Flogo {
-    font-family: "pixelify sans";
-    font-weight: bold;
-    color: rgb(170, 64, 126);
-    font-size: 35px;
-    padding: 2.5% 0px;
-}
-
-.footerNav nav ul li a {
-    transition: .4s;
-    text-decoration: none;
-    color: aliceblue;
-    font-weight: bold;
-    font-size: 15px;
-}
-
-.footerNav nav ul li a:hover {
-    font-size: 18px;
-    transition: .4s;
-    color: #dd5a86;
-}
-
-.copyright {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 12px;
 }
