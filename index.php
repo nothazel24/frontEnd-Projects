@@ -239,9 +239,9 @@
   <section class="six">
     <div class="creditsWrapper">
       <div class="imageGroups">
-        <a href="#" target="_self"><img src="assets/instagram.png" alt="instagram" style="width: 30px" /></a>
-        <a href="#" target="_self"><img src="assets/telegram.png" alt="telegram" style="width: 30px" /></a>
-        <a href="#" target="_self"><img src="assets/github.png" alt="github" style="width: 30px" /></a>
+        <a href="#" target="_self"><img src="assets/instagram.svg" alt="instagram" style="width: 30px" /></a>
+        <a href="#" target="_self"><img src="assets/telegram.svg" alt="telegram" style="width: 30px" /></a>
+        <a href="#" target="_self"><img src="assets/github.svg" alt="github" style="width: 30px" /></a>
       </div>
       <p class="creditsTxt">Made by yan.f</p>
     </div>
@@ -251,6 +251,17 @@
   <!-- Scripts -->
   <script src="script/script.js"></script>
 
+  <!-- GSAP Make things easier -->
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/EaselPlugin.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/TextPlugin.min.js"></script>
+
+  <!-- RoughEase, ExpoScaleEase and SlowMo are all included in the EasePack file -->
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/EasePack.min.js"></script>
+
+  <script src="script/anims.js"></script>
   <!-- WRAPPER DIVISION -->
 
   <?php include 'others/footer.php'; ?>
