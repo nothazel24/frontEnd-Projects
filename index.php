@@ -20,7 +20,6 @@
 
         <div class="sliding-section">
           <div class="sliding-wrapper">
-
             <div class="image-container" id="img1">
               <img src="assets/silder.jpg" alt="sliding-img" class="sliding-content">
               <div class="overlay">
@@ -31,7 +30,7 @@
             </div>
 
             <div class="image-container" id="img2">
-              <img src="assets/silder.jpg" alt="sliding-img" class="sliding-content">
+              <img src="assets/scarybear.png" alt="sliding-img" class="sliding-content">
               <div class="overlay">
                 <div class="text">
                   <p id="overlayText"></p>

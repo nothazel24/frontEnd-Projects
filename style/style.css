@@ -64,19 +64,6 @@
     position: relative;
 }
 
-.image-container img {
-    animation: infiniteScroll 10s ease-in-out infinite;
-}
-.image-container .overlay {
-    animation: infiniteScroll 10s ease-in-out infinite;
-}
-
-@keyframes infiniteScroll {
-    0% { transform: translateX(0%);}
-    50% { transform: translateX(100%);}
-    100% { transform: translateX(0%);}
-}
-
 .image-container .overlay {
     position: absolute;
     top: 0;
@@ -124,14 +111,35 @@
 }
 
 .sliding-wrapper {
+    /* outline: 3px solid cyan; */
+    /* border: 5px solid cyan; Testing Purposes */
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    /* max-width: 90px; */
+    overflow-x: auto;
+    white-space: nowrap;
     gap: 2.5%;
+    cursor: grab;
+    scrollbar-width: none;
 }
+
 
 .sliding-content {
     border-radius: 15px;
     width: 149px;
+    /* padding-block: 3rem; */
+}
+
+/* add these following styles if the class has this attr */
+.sliding-wrapper[data-animated=true] {
+    overflow: hidden;
+    -webkit-mask: linear-gradient(90deg, transparent, white 30%, white 80.6%, transparent); /*webkit g diajak*/
+    mask: linear-gradient(90deg, transparent, white 30%, white 80.6%, transparent);
+}
+
+/* and so on... */
+.sliding-wrapper[data-animated=true] .sliding-content {
+    flex-wrap: nowrap;
 }
 /* END */
 
