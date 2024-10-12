@@ -30,7 +30,7 @@
             </div>
 
             <div class="image-container" id="img2">
-              <img src="assets/scarybear.png" alt="sliding-img" class="sliding-content">
+              <img src="assets/silder.jpg" alt="sliding-img" class="sliding-content">
               <div class="overlay">
                 <div class="text">
                   <p id="overlayText"></p>
@@ -84,6 +84,22 @@
             </div>
 
             <div class="image-container" id="img8">
+              <img src="assets/silder.jpg" alt="sliding-img" class="sliding-content">
+              <div class="overlay">
+                <div class="text">
+                  <p id="overlayText"></p>
+                </div>
+              </div>
+            </div>
+            <div class="image-container" id="img9">
+              <img src="assets/silder.jpg" alt="sliding-img" class="sliding-content">
+              <div class="overlay">
+                <div class="text">
+                  <p id="overlayText"></p>
+                </div>
+              </div>
+            </div>
+            <div class="image-container" id="img10">
               <img src="assets/silder.jpg" alt="sliding-img" class="sliding-content">
               <div class="overlay">
                 <div class="text">
