@@ -277,6 +277,7 @@
   <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/EasePack.min.js"></script>
 
   <script src="script/anims.js"></script>
+  <script src="script/navbarAnims.js"></script>
   <!-- WRAPPER DIVISION -->
 
   <?php include 'others/footer.php'; ?>

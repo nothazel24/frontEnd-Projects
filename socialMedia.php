@@ -33,6 +33,5 @@
                 <p class="extraDesc">heheha.</p>
             </div>
         </section>
-
     </div>
 <?php include 'others/footer.php'; ?>

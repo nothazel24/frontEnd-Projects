@@ -2,11 +2,9 @@
 document.addEventListener("DOMContentLoaded", () => {
   gsap.registerPlugin(ScrollTrigger, EaselPlugin, TextPlugin, ExpoScaleEase);
   // gsap code here!
-  // Vars
-  var tl_nav = gsap.timeline();
-  var tl = gsap.timeline();
 
-  var linksDuration = 0.3;
+  // Vars
+  var tl = gsap.timeline();
 
   gsap.from(".ryo", { // teteh ryo cantik banget aduhai
     y: 50,
@@ -30,34 +28,18 @@ document.addEventListener("DOMContentLoaded", () => {
     })
 
     // Sliding images
+    .from(".sliding-content", {
+      // y: 20,
+      opacity: 0,
+      ease: "expo",
+      //rotation: 90,
+      // stagger: 0.1
+    })
+
     .from(".sliding-wrapper", {
       y: 20,
       opacity: 0,
-      ease: "expo",
-    //   rotation: 90,
-      stagger: 0.1
-    });
-
-  // Navbar
-  tl_nav
-    .from(".navbar", {
-      opacity: 0,
-      y: -50,
-      duration: 0.9,
-      ease: "expo.out",
+      ease: "expo.out"
     })
-
-    .from(".logo", {
-      x: -110,
-      duration: 0.5,
-      ease: "expo.out",
-    })
-
-    .from(".nav-link", {
-      y: -10,
-      opacity: 0,
-      duration: linksDuration,
-      ease: "expo.out",
-      stagger: 0.1
-    });
 });
+
