@@ -1,0 +1,10 @@
+/* ---- HEAD SECTION ---- */
+.logo {
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+    font-family: "pixelify sans";
+    padding: 3px;
+    font-size: 28px;
+    margin: auto 0px;
+}

@@ -1,4 +1,4 @@
-<body style="background-color: hsl(0, 0%, 17%);">
+<body>
 
   <?php include 'others/head.php'; ?>
   <!-- CONTENT SECTION -->
@@ -93,16 +93,9 @@
               </div>
             </div>
           </div>
-        </div>
       </div>
-
-      <div class="descButton">
-        <p class="prjct-button">
-          <a href="#" target="_self">My projects</a>
-        </p>
-      </div>
-
     </div>
+
   </section>
   <!-- SECTION CONTENT ONE -->
 
@@ -252,5 +245,6 @@
   <script src="script/script.js"></script>
 
   <!-- WRAPPER DIVISION -->
-
+   
+  <!-- <img src="assets/waveFooter.svg" alt="footerWave" class="wave"> -->
   <?php include 'others/footer.php'; ?>

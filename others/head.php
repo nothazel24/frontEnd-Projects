@@ -3,7 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style/style.css" />
+
+    <!-- STYLE SECTION -->
+    <link rel="stylesheet" href="style/headStyle.css" />
+    <link rel="stylesheet" href="style/footerStyle.css" />
+
+    <link rel="stylesheet" href="style/indexStyle.css" />
+    <link rel="stylesheet" href="style/projectsStyle.css" />
+    <link rel="stylesheet" href="style/socialMedStyle.css" />
+
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
@@ -13,16 +21,13 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
 
     <!-- FONTS SECTION -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap"
-      rel="stylesheet"
-    />
-    <title>TRETRATRETRE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Bebas+Neue&family=Cabin:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <title>frontEnd-Projects</title>
   </head>
 
-  <body style="background-color: hsl(0, 0%, 17%);">
+  <body>
     <div class="wrapper">
       <!-- NAVBAR SECTION -->
       <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
