@@ -1,29 +1,22 @@
 <footer class="end">
-      <div class="Fwrapper">
-        <div class="Flogo">Lorem Ipsum.</div>
-        <div class="footerNav">
-          <nav>
-            <ul class="one" type="none">
-              <li><a href="#" target="_self" class="fNav">Service</a></li>
-              <li><a href="#" target="_self" class="fNav">Lorem</a></li>
-              <li><a href="#" target="_self" class="fNav">Lorem</a></li>
-              <li><a href="#" target="_self" class="fNav">Lorem</a></li>
-            </ul>
-
-            <ul class="two" type="none">
-              <li><a href="#" target="_self" class="fNav">Lorem</a></li>
-              <li><a href="#" target="_self" class="fNav">Lorem</a></li>
-              <li><a href="#" target="_self" class="fNav">Lorem</a></li>
-              <li><a href="#" target="_self" class="fNav">Lorem</a></li>
-            </ul>
-          </nav>
+      <div class="Fwrapper p-3 my3">
+        <div class="footerHead">
+          <div class="Flogo">Logo.</div>
+          <p class="footerDesc">Projects-one</p>
         </div>
 
-        <div class="copyright">
-          <p>All Rights Reserved Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam modi magni est laudantium dolorem excepturi odit rerum dolores, sint adipisci amet earum, eligendi quis error, sed at quibusdam alias aperiam. </p>
+        <div class="Fmenu">
+          <div class="menu-text"><a href="#" target="_self" class="Fmenu-links"><p>Home</p></a></div>
+          <div class="menu-text"><a href="#" target="_self" class="Fmenu-links"><p>Feedback</p></a></div>
+          <div class="menu-text"><a href="#" target="_self" class="Fmenu-links"><p>Contribute</p></a></div>
+          <div class="menu-text"><a href="#" target="_self" class="Fmenu-links"><p>Projects</p></a></div>
+          <div class="menu-text"><a href="#" target="_self" class="Fmenu-links"><p>Social Media</p></a></div>
         </div>
 
-      </div>
-      <!-- fWrapper -->
+        <div class="copy">
+          <p class="copyText">2024 Bandung, Baleendah. "Groups Projects"</p>
+        </div>
+
+      </div> <!-- fWrapper -->
     </footer>
   </body>

@@ -1,44 +1,42 @@
 /* ---- FOOTER SECTION ---- */
 .end {
-    background-color: #406682;
-    color: aliceblue;
-    margin-top: 4rem;
+    color: #252525;
+    margin-top: 1.5rem;
 }
 
-.Fwrapper {
-    padding: 2rem;
-}
-
-.footerNav nav {
+.footerHead {
     display: flex;
     flex-direction: row;
-    gap: 50%;
+    justify-content: space-between;
+    margin: 0px 1.5rem;
+
 }
 
 .Flogo {
-    font-family: "pixelify sans";
-    font-weight: bold;
-    color: rgb(170, 64, 126);
-    font-size: 35px;
-    padding: 2.5% 0px;
-}
-
-.footerNav nav ul li a {
-    transition: .4s;
     text-decoration: none;
-    color: aliceblue;
+    color: #252525;
     font-weight: bold;
-    font-size: 15px;
+    font-family: "pixelify sans";
+    padding: 3px;
+    font-size: 28px;
 }
 
-.footerNav nav ul li a:hover {
-    font-size: 18px;
-    transition: .4s;
-    color: #dd5a86;
+.footerDesc {
+    font-weight: bold;
 }
 
-.copyright p {
-    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
-    font-size: 12px;
-    color: aliceblue;
+.Fmenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: .5rem 6rem;
+    font-weight: bold;
+}
+
+.Fmenu-links {
+    text-decoration: none;
+}
+
+.copy {
+    text-align: center;
 }
