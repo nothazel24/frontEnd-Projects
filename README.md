@@ -1,7 +1,7 @@
 # FrontEnd Project By Nguwawor Team 
 ### Members
-1. Muhammad Nezad Maulana A **( Github : NzddXD )**
-2. Ryan Ferdiansyah **( Github : nothazel24 )**
+1. [**NzddXD**](github.com/NzddXD) (Member)
+2. [**nothazel24**](github.com/nothazel24) (Manager)
 3. Adi Riansyah 
 4. Handacana Vieroca P
 
