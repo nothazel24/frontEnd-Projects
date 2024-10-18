@@ -22,7 +22,7 @@
           <!-- SLIDING SECTION -->
           <div class="slidingSection">
           <div class="sliding-wrapper">
-            <?php for ($i = 1; $i <= 8; $i++): ?>
+            <?php for ($i = 1; $i <= 30; $i++): ?>
               <div class="image-container" id="img<?= $i ?>">
                 <img src="assets/silder.jpg" alt="sliding-img" class="sliding-content">
                 <div class="overlay">
@@ -187,6 +187,19 @@
   <!-- Scripts -->
   <script src="script/script.js"></script>
 
+   <!-- GSAP Make things easier -->
+   <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/EaselPlugin.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/TextPlugin.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+
+  <!-- RoughEase, ExpoScaleEase and SlowMo are all included in the EasePack file -->
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/EasePack.min.js"></script>
+
+   <script src="script/anims.js"></script>
+   <script src="script/navbarAnims.js"></script>
   <!-- WRAPPER DIVISION -->
 
   <!-- <img src="assets/waveFooter.svg" alt="footerWave" class="wave"> -->
