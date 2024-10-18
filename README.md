@@ -1,5 +1,5 @@
-# Front - End Repository
-This repository is for learning purposes only. Fell free to contribute and clone it into your own local storage
+# Front - End Repository (on branch1-nzd)
+This repository is for learning purposes only. Feel free to contribute and clone it into your own local storage
 ```shell
 git clone https://github.com/nothazel24/frontEnd-Projects.git
 ```
