@@ -9,31 +9,33 @@
         </section> -->
 
   <section class="one">
-    <div class="container p-5 my-5">
+    <div class="container p-2 my-2">
       <div class="contentWrapper">
-        <h2 class="text-center">About Us</h2>
 
-        <img src="https://image.noelshack.com/fichiers/2023/29/3/1689748539-ryo28.png" alt="ryo:3" class="ryo" />
+          <img src="https://image.noelshack.com/fichiers/2023/29/3/1689748539-ryo28.png" alt="ryo:3" class="ryo" />
 
-        <h1 class="intro">Greetings, User!</h1>
-        <p class="introDesc">
-          This is our first Front-end project, any changes in this site may look broken or incomplete.
-        </p>
+          <h1 class="intro">Greetings, User!</h1>
+          <p class="introDesc">
+            This is our first Front-end project, any changes in this site may look broken or incomplete.
+          </p>
 
-        <!-- SLIDING SECTION -->
-        <div class="sliding-wrapper">
-        <?php for ($i = 1; $i <= 8; $i++): ?>
-        <div class="image-container" id="img<?= $i ?>">
-            <img src="assets/silder.jpg" alt="sliding-img" class="sliding-content">
-            <div class="overlay">
-                    <div class="text">
-                        <p id="overlayText"></p>
-                    </div>
+          <!-- SLIDING SECTION -->
+          <div class="slidingSection">
+          <div class="sliding-wrapper">
+            <?php for ($i = 1; $i <= 8; $i++): ?>
+              <div class="image-container" id="img<?= $i ?>">
+                <img src="assets/silder.jpg" alt="sliding-img" class="sliding-content">
+                <div class="overlay">
+                  <div class="text">
+                    <p id="overlayText"></p>
+                  </div>
                 </div>
-            </div>
+              </div>
             <?php endfor; ?>
-        </div>
-        
+          </div>
+
+          </div> <!-- SLIDING SECTION -->
+
       </div> <!-- CONTENT WRAPPER END -->
     </div> <!-- CONTAINER END -->
 
@@ -186,6 +188,6 @@
   <script src="script/script.js"></script>
 
   <!-- WRAPPER DIVISION -->
-   
+
   <!-- <img src="assets/waveFooter.svg" alt="footerWave" class="wave"> -->
   <?php include 'others/footer.php'; ?>
