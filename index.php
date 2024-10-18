@@ -1,4 +1,4 @@
-<body style="background-color: hsl(0, 0%, 17%);">
+<body style="background-color: hsl(0, 0%, 100%);">
 
   <?php include 'others/head.php'; ?>
   <!-- CONTENT SECTION -->
@@ -123,8 +123,8 @@
 
   <div class="hr"></div>
 
-  <section class="two">
-    <div class="container p-5 my-5">
+  <section class="two .iniapaya">
+    <div class="container p-5 my-5 .initext">
       <div class="contentWrapper-start">
         <h1 class="header">Ini apa ya...</h1>
         <p class="content-desc">
@@ -140,8 +140,8 @@
 
   <div class="hr"></div>
 
-  <section class="three">
-    <div class="container p-5 my-5">
+  <section class="three .iniapaya">
+    <div class="container p-5 my-5 .initext">
       <div class="contentWrapper-center">
         <h1 class="header">Ini apa ya...</h1>
         <p class="content-desc">
@@ -157,8 +157,8 @@
 
   <div class="hr"></div>
 
-  <section class="four">
-    <div class="container p-5 my-5">
+  <section class="four .iniapaya">
+    <div class="container p-5 my-5 .initext">
       <div class="contentWrapper-end">
         <h1 class="header">Ini apa ya...</h1>
         <p class="content-desc">
@@ -174,8 +174,8 @@
 
   <div class="hr"></div>
 
-  <section class="five">
-    <div class="section-content">
+  <section class="five .iniapaya">
+    <div class="section-content .initext">
       <div class="list-content">
         <h2>Ini Judul</h2>
         <div class="innerWrapper">
@@ -269,9 +269,11 @@
   <!-- GSAP Make things easier -->
   <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
 
-  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/EaselPlugin.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/TextPlugin.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
 
   <!-- RoughEase, ExpoScaleEase and SlowMo are all included in the EasePack file -->
   <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/EasePack.min.js"></script>

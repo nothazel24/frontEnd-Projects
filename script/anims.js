@@ -1,4 +1,6 @@
 // Wait for GSAP to load
+
+gsap.registerPlugin(ScrollTrigger)
 document.addEventListener("DOMContentLoaded", () => {
   gsap.registerPlugin(ScrollTrigger, EaselPlugin, TextPlugin, ExpoScaleEase);
   // gsap code here!
