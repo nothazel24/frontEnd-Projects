@@ -9,8 +9,8 @@
     flex-direction: row;
     justify-content: space-between;
     margin: 0px 1.5rem;
-
 }
+
 
 .Flogo {
     text-decoration: none;
@@ -23,18 +23,21 @@
 
 .footerDesc {
     font-weight: bold;
+    align-items: center;
+    margin: auto 2px;
 }
 
 .Fmenu {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: .5rem 4rem;
+    margin: .5rem 2rem;
     font-weight: bold;
 }
 
 .Fmenu-links {
     text-decoration: none;
+    font-size: 12px;
 }
 
 .copy {

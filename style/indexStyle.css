@@ -8,8 +8,8 @@
 
 .hr {
   background-color: #7f96aa;
-  width: 15%;
-  height: 5px;
+  width: 12%;
+  height: 3px;
   border-radius: 10px;
   margin: auto;
 }
@@ -142,7 +142,7 @@
 }
 /* END */
 
-.contentWrapper-start {
+.contentWrapper2 {
   /* position: relative;
     left: 25%; */
   text-align: start;
@@ -154,7 +154,7 @@
   padding: 10px;
 }
 
-.contentWrapper-center {
+.contentWrapper3 {
   /* position: relative;
     left: 25%; */
   text-align: center;
@@ -166,7 +166,7 @@
   padding: 10px;
 }
 
-.contentWrapper-end {
+.contentWrapper4 {
   /* position: relative;
     left: 25%; */
   text-align: end;

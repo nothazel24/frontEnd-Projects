@@ -37,11 +37,12 @@
   <!-- SECTION CONTENT ONE -->
 
   <div class="hr"></div>
-
   
   <section class="two">
+
+  <?php for ($j = 2; $j <= 4; $j++) : ?>
     <div class="container p-5 my-5">
-      <div class="contentWrapper-start">
+      <div class="contentWrapper<?= $j ?>">
         <h1 class="header">Ini apa ya...</h1>
         <p class="content-desc">
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -51,52 +52,20 @@
         </p>
       </div>
     </div>
+    <?php endfor; ?>
+
   </section>
   <!-- SECTION CONTENT TWO -->
 
-  <div class="hr"></div>
-
-  <section class="three">
-    <div class="container p-5 my-5">
-      <div class="contentWrapper-center">
-        <h1 class="header">Ini apa ya...</h1>
-        <p class="content-desc">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Obcaecati, soluta! Laboriosam, saepe minus sequi dolorem ut quasi
-          libero quos illo ipsum et dolor veniam earum dolorum error culpa
-          cumque nulla!
-        </p>
-      </div>
-    </div>
-  </section>
-  <!-- SECTION CONTENT THREE -->
-
-  <div class="hr"></div>
-
-  <section class="four">
-    <div class="container p-5 my-5">
-      <div class="contentWrapper-end">
-        <h1 class="header">Ini apa ya...</h1>
-        <p class="content-desc">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Obcaecati, soluta! Laboriosam, saepe minus sequi dolorem ut quasi
-          libero quos illo ipsum et dolor veniam earum dolorum error culpa
-          cumque nulla!
-        </p>
-      </div>
-    </div>
-  </section>
-  <!-- SECTION CONTENT FOUR -->
-
 
   <!-- UNCOMPLETED SECTION -->
-  <section class="five">
+  <section class="three">
     <!-- CONTRIBUTOR PAGE -->
   </section> <!-- SECTION CONTENT FIVE -->
 
   <div class="hr"></div>
 
-  <section class="six">
+  <section class="four">
     <div class="creditsWrapper">
       <div class="imageGroups">
         <a href="#" target="_self"><img src="assets/instagram.png" alt="instagram" style="width: 30px" /></a>
@@ -114,13 +83,13 @@
    <!-- GSAP Make things easier -->
    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/EaselPlugin.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/TextPlugin.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/TextPlugin.min.js"></script>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
 
 
   <!-- RoughEase, ExpoScaleEase and SlowMo are all included in the EasePack file -->
-  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/EasePack.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/EasePack.min.js"></script>
 
    <script src="script/anims.js"></script>
    <script src="script/navbarAnims.js"></script>
