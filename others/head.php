@@ -31,7 +31,7 @@
     <div class="wrapper">
       <!-- NAVBAR SECTION -->
       <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-        <p class="logo" href="#">Logo.</p>
+        <a class="home" href="index.php" target="_self"><p class="logo">Logo.</p></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -47,7 +47,7 @@
               <a class="nav-link" href="index.php">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="socialMedia.php">Social Media</a>
+              <a class="nav-link" href="#">Coming Soon</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="projects.php">Projects</a>
