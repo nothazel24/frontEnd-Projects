@@ -10,7 +10,7 @@
 
     <link rel="stylesheet" href="style/indexStyle.css" />
     <link rel="stylesheet" href="style/projectsStyle.css" />
-    <link rel="stylesheet" href="style/socialMedStyle.css" />
+    <link rel="stylesheet" href="style/devInfoStyle.css" />
 
     <link
       rel="stylesheet"
@@ -24,7 +24,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Bebas+Neue&family=Cabin:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
-    <title>frontEnd-Projects</title>
+    <title>Origami Projects</title>
   </head>
 
   <body>
