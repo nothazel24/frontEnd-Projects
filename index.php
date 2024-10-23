@@ -57,15 +57,17 @@
   <div class="hr"></div>
 
   <!-- UNCOMPLETED SECTION -->
-  <section class="three">
-    <div class="container p-5 my-5" style="background-color: #bec9d4;">
+  <section class="three" style="background-color: #bec9d4;">
+    <div class="container p-5 my-5">
 
       <h1 class="contributorsHeader">Contributors</h1>
-      <div class="cProfile">
+
+      <?php for ($e = 0; $e <= 2; $e++) : ?>
+      <div class="cProfile<?= $e ?>">
         <img src="assets/silder.jpg" alt="dev's photo" width="150px" height="150px" style="border-radius: 100%;">
         <div class="cDesc">
-          <h1 class="cName">Lorem</h1>
-          <p class="cDescribe">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quis beatae ab expedita! Magni quaerat accusamus rem harum non, nisi voluptatum, neque tempore numquam minus excepturi ducimus esse. Quasi, maxime.</p>
+          <h1>Atmin Ganteng</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quis beatae ab expedita! Magni quaerat accusamus rem harum non, nisi voluptatum, neque tempore numquam minus excepturi ducimus esse. Quasi, maxime.</p>
           
           <div class="contributorsButton">
             <a href="#" class="cButton"><p>See Profile</p></a>
@@ -73,6 +75,7 @@
 
         </div> <!-- CONTRIBUTOR DESC END -->
       </div> <!-- CONTRIBUTORS PROFILE END -->
+      <?php endfor; ?>
 
     </div>
   </section> <!-- SECTION CONTENT FIVE -->

@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="style/indexStyle.css" />
     <link rel="stylesheet" href="style/projectsStyle.css" />
     <link rel="stylesheet" href="style/devInfoStyle.css" />
+    <link rel="stylesheet" href="style/comingSoonStyle.css" />
 
     <link
       rel="stylesheet"
