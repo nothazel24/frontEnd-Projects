@@ -14,7 +14,7 @@
         </div>
 
         <div class="copy">
-          <p class="copyText">2024 Bandung, Baleendah. by : <strong>Origami Projects</strong></p>
+          <p class="copyText">2024 Bandung, Baleendah. Made with love by Origami Teams</p>
         </div>
 
       </div> <!-- fWrapper -->

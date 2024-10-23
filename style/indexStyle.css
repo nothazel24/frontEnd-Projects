@@ -172,9 +172,27 @@
   padding: 10px;
 }
 
-.content-desc {
+.replace-text-desc {
   width: 90%;
 }
+
+/* .replace-text-desc2::after {
+  content: "Escape freak diddy's obby";
+  display: block;
+  font-size: 16px;
+}
+
+.replace-text-desc3::after {
+  content: "Escape freak diddy's obby";
+  display: block;
+  font-size: 16px;
+}
+
+.replace-text-desc4::after {
+  content: "Ambalabu";
+  display: block;
+  font-size: 16px;
+} */
 
 /* .section-content {
   margin: 1rem auto;

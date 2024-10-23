@@ -30,7 +30,7 @@
   <body>
     <div class="wrapper">
       <!-- NAVBAR SECTION -->
-      <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark" style="color: #252525;">
         <a class="home" href="index.php" target="_self"><p class="logo">Logo.</p></a>
         <button
           class="navbar-toggler"
