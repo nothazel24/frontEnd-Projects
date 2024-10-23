@@ -54,10 +54,27 @@
   </section>
   <!-- SECTION CONTENT TWO -->
 
+  <div class="hr"></div>
 
   <!-- UNCOMPLETED SECTION -->
   <section class="three">
-    <!-- CONTRIBUTOR PAGE -->
+    <div class="container p-5 my-5" style="background-color: #bec9d4;">
+
+      <h1 class="contributorsHeader">Contributors</h1>
+      <div class="cProfile">
+        <img src="assets/silder.jpg" alt="dev's photo" width="150px" height="150px" style="border-radius: 100%;">
+        <div class="cDesc">
+          <h1 class="cName">Lorem</h1>
+          <p class="cDescribe">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quis beatae ab expedita! Magni quaerat accusamus rem harum non, nisi voluptatum, neque tempore numquam minus excepturi ducimus esse. Quasi, maxime.</p>
+          
+          <div class="contributorsButton">
+            <a href="#" class="cButton"><p>See Profile</p></a>
+          </div>
+
+        </div> <!-- CONTRIBUTOR DESC END -->
+      </div> <!-- CONTRIBUTORS PROFILE END -->
+
+    </div>
   </section> <!-- SECTION CONTENT FIVE -->
 
   <div class="hr"></div>

@@ -176,28 +176,15 @@
   width: 90%;
 }
 
-/* .replace-text-desc2::after {
-  content: "Escape freak diddy's obby";
-  display: block;
-  font-size: 16px;
+/* CONTRIBUTORS SECTION */
+.cProfile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: .5rem;
 }
-
-.replace-text-desc3::after {
-  content: "Escape freak diddy's obby";
-  display: block;
-  font-size: 16px;
-}
-
-.replace-text-desc4::after {
-  content: "Ambalabu";
-  display: block;
-  font-size: 16px;
-} */
-
-/* .section-content {
-  margin: 1rem auto;
-  padding: 20px;
-} */
+/* END */
 
 .creditsWrapper {
   display: flex;
