@@ -40,16 +40,29 @@
 
   <section class="two">
 
-    <?php for ($j = 2; $j <= 4; $j++) : ?>
+    <?php
+    $contents = [
+      ["title" => "Why We Build This?", "content" => "Lorem ipsum dolor sit amet"],
+      ["title" => "Our Goals", "content" => "1000 baby oils at Diddy's house"],
+      ["title" => "Follow Us!", "content" => "omke gams omke gams omke gams"]
+    ];
+
+    $elementCount = count($contents);
+
+    for ($j = 2; $j <= 4; $j++) :
+      $currentIndex = ($j - 2) % $elementCount;
+      $currentElement = $contents[$currentIndex];
+    ?>
       <div class="container p-5 my-5">
         <div class="contentWrapper<?= $j ?>">
-          <h1 class="header">Ini apa ya...</h1>
+          <h1 class="header"><?= $currentElement['title'] ?></h1>
           <p class="text-desc<?= $j ?>">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi hic assumenda natus nam doloribus beatae repellat reiciendis, quis officiis amet sint sed laborum tempore tempora animi, aliquid fugit, explicabo provident.
+            <?= $currentElement['content'] ?>
           </p>
         </div>
       </div>
     <?php endfor; ?>
+
 
   </section>
   <!-- SECTION CONTENT TWO -->
@@ -63,18 +76,20 @@
       <h1 class="contributorsHeader">Contributors</h1>
 
       <?php for ($e = 0; $e <= 2; $e++) : ?>
-      <div class="cProfile<?= $e ?>">
-        <img src="assets/silder.jpg" alt="dev's photo" width="150px" height="150px" style="border-radius: 100%;">
-        <div class="cDesc">
-          <h1>Atmin Ganteng</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quis beatae ab expedita! Magni quaerat accusamus rem harum non, nisi voluptatum, neque tempore numquam minus excepturi ducimus esse. Quasi, maxime.</p>
-          
-          <div class="contributorsButton">
-            <a href="#" class="cButton"><p>See Profile</p></a>
-          </div>
+        <div class="cProfile<?= $e ?>">
+          <img src="assets/silder.jpg" alt="dev's photo" width="150px" height="150px" style="border-radius: 100%;">
+          <div class="cDesc">
+            <h1>Atmin Ganteng</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quis beatae ab expedita! Magni quaerat accusamus rem harum non, nisi voluptatum, neque tempore numquam minus excepturi ducimus esse. Quasi, maxime.</p>
 
-        </div> <!-- CONTRIBUTOR DESC END -->
-      </div> <!-- CONTRIBUTORS PROFILE END -->
+            <div class="contributorsButton">
+              <a href="#" class="cButton">
+                <p>See Profile</p>
+              </a>
+            </div>
+
+          </div> <!-- CONTRIBUTOR DESC END -->
+        </div> <!-- CONTRIBUTORS PROFILE END -->
       <?php endfor; ?>
 
     </div>

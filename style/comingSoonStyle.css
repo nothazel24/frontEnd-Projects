@@ -1,0 +1,26 @@
+.comingsoon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+    font-family: cabin, sans-serif;
+}
+
+.seeYa {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem;
+    align-items: center;
+}
+
+.supText {
+    font-weight: bold;
+    font-size: 25px;
+    background-color: #607e96;
+    color: #FEFEFE;
+    width: max-content;
+    padding: .5rem 2rem;
+    border-radius: 30px;
+}
