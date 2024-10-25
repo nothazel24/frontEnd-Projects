@@ -48,7 +48,7 @@
               <a class="nav-link" href="index.php">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Coming Soon</a>
+              <a class="nav-link" href="comingSoon.php">Coming Soon</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="projects.php">Projects</a>

@@ -1,6 +1,6 @@
-<?php include 'others/head.php'; ?>
-
 <body style="background-color: #dee4e9">
+    
+<?php include 'others/head.php'; ?>
     
 <div class="container p-5 my5">
     <div class="comingsoon">
