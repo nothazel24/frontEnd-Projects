@@ -83,7 +83,7 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quis beatae ab expedita! Magni quaerat accusamus rem harum non, nisi voluptatum, neque tempore numquam minus excepturi ducimus esse. Quasi, maxime.</p>
 
             <div class="contributorsButton">
-              <a href="#" class="cButton">
+              <a href="devInfo.php" class="cButton">
                 <p>See Profile</p>
               </a>
             </div>

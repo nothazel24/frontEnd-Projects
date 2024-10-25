@@ -1,7 +1,7 @@
 <footer class="end">
       <div class="Fwrapper p-3 my3">
         <div class="footerHead">
-          <div class="Flogo">Logo.</div>
+          <div class="Flogo">Origami.</div>
           <p class="footerDesc">Projects-one</p>
         </div>
 

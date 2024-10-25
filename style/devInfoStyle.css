@@ -1,0 +1,124 @@
+.header {
+    text-align: center;
+    padding: .5rem;
+    font-size: 32px;
+}
+
+.devOne {
+    margin: 1rem 0px;
+}
+
+.devTwo {
+    margin: 1rem 0px;
+}
+
+.cardBg {
+    background-color: #9eafbf;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+}
+
+
+
+/* SECTION ONE  */
+.section1 img {
+    width: 120px;
+    height: max-content;
+    border-radius: 100%;
+    margin: .5rem;
+}
+
+.section1 {
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section1 h5 {
+    text-align: center;
+    font-size: 15px;
+}
+
+.socialMedList {
+    font-size: 12px;
+    line-height: .5;
+    margin: .5rem;
+}  /* END */
+
+
+
+/* SECTION TWO */
+.section2 {
+    display: flex;
+    flex-direction: column;
+    padding: .5rem;
+    margin: .5rem;
+    font-size: 12px;
+}
+
+/* SECTION THREE */
+.section3 {
+    background-color: #dee4e9;
+    width: max-content;
+    padding: .5rem 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    opacity: 90%;
+}
+
+.section3 h5 {
+    font-size: 18px;
+}
+
+.techStack {
+    display: flex;
+    flex-direction: row;
+}
+
+.imgStack {
+    margin : 0px .5rem;
+}
+
+
+
+/* EXTRAS CARD */
+.extrasWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.extrasCard {
+    background-color: #607e96;
+    padding: .5rem 2.2rem;
+    border-radius: 15px;
+}
+
+.extrasCardContent {
+    display: flex;
+    flex-direction: row;
+}
+
+.extrasCardContent2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.extrasCardContent h3 {
+    font-size: 18px;
+}
+
+/* EXTRAS TWO */
+.extrasTwo {
+    background-color: #9eafbf;
+    padding: .5rem;
+    text-align: center;
+    border-radius: 10px;
+}
