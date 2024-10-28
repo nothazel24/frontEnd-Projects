@@ -1,13 +1,76 @@
-<?php include 'others/head.php'; ?>
-   <h1 class="headOfSocialMed">Join Our Discussion !</h1>
+<body style="background-color: #dee4e9">
 
-    <div class="devWrapper">
+    <?php include 'others/head.php'; ?>
+    <div class="container p-5 my-5">
+        <h1 class="header">Developer Profile's</h1>
         <section class="devOne">
-            <div class="socialWrapper">
-                <a href="" target="_self"><img src="assets/instagram.png" class="ig" alt="instagram"></a>
-                <p class="mysocialMed">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt inventore explicabo ullam totam, iste corrupti ratione nihil voluptate fuga, animi aut autem adipisci? Voluptas laudantium fuga possimus aspernatur culpa magni? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga repudiandae expedita magnam, voluptatibus, rem omnis quisquam officiis ad ab modi non quod quia dolore excepturi ut iusto optio voluptatum alias.</p>
-                <p class="extraDesc">heheha.</p>
+
+            <div class="cardBg">
+
+                <div class="section1">
+                    <img src="assets/silder.jpg" alt="dev pfp">
+                    <h5>My social Media</h5>
+                    <div class="socialMedList">
+                        <p>@lorem ipsum</p>
+                        <p>@lorem ipsum</p>
+                        <p>@lorem ipsum</p>
+                    </div>
+                </div>
+
+                <div class="section2">
+                    <h3>Dev Name</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint hic maxime, doloribus porro repellat temporibus consequuntur quod minus cumque, sequi deleniti corporis inventore adipisci suscipit magnam distinctio nesciunt quia dolorem!</p>
+
+                    <div class="section3">
+                        <h5>My Tech Stack</h5>
+
+                        <div class="techStack">
+                            <img src="#" alt="#" class="imgStack">
+                            <img src="#" alt="#" class="imgStack">
+                            <img src="#" alt="#" class="imgStack">
+                            <img src="#" alt="#" class="imgStack">
+                        </div>
+                    </div> <!-- SECTION 3 -->
+                </div> <!-- SECTION 2 -->
+
+            </div> <!-- CARD BG -->
+        </section> <!-- DEV ONE -->
+
+
+        <section class="devTwo">
+
+            <h3 class="sub-header">Projects and Others</h3>
+            <div class="extrasWrapper">
+
+                <?php for ($k = 0; $k <= 1; $k++) : ?>
+                    <div class="extras<?= $k ?>">
+                        <div class="extrasCard">
+
+                            <div class="extrasCardContent">
+                                <img src="#" alt="#">
+                                <div class="extrasCardContent2">
+                                    <h3>Project Name</h3>
+                                    <p>project desc</p>
+                                    <div class="view">
+                                        <a href="#" target="_self">
+                                            <p>View Projects</p>
+                                        </a>
+                                    </div>
+                                </div> <!-- VIEW -->
+
+                            </div> <!-- EXTRAS CARD CONTENT -->
+                        </div> <!-- EXTRAS CARD -->
+                    </div> <!-- EXTRAS ONE -->
+                <?php endfor; ?>
+
+            </div> <!-- EXTRAS WRAPPER -->
+        </section>
+
+        <section class="devThree">
+            <div class="extrasTwo">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla dicta, explicabo sit iusto in quasi magni! Molestias dolorem necessitatibus qui ducimus cupiditate ex? Atque omnis commodi rerum architecto pariatur consequuntur!</p>
             </div>
         </section>
-    </div>
-<?php include 'others/footer.php'; ?>
+
+    </div> <!-- CONTAINER -->
+    <?php include 'others/footer.php'; ?>

@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="style/indexStyle.css" />
     <link rel="stylesheet" href="style/projectsStyle.css" />
     <link rel="stylesheet" href="style/devInfoStyle.css" />
+    <link rel="stylesheet" href="style/comingSoonStyle.css" />
 
     <link
       rel="stylesheet"
@@ -47,7 +48,7 @@
               <a class="nav-link" href="index.php">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Coming Soon</a>
+              <a class="nav-link" href="comingSoon.php">Coming Soon</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="projects.php">Projects</a>
