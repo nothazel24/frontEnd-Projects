@@ -1,3 +1,9 @@
+.line {
+    width: 100%;
+    height: 0.3px;
+    background-color: #2a3a46;
+}
+
 .header {
     text-align: center;
     padding: .5rem;
@@ -14,7 +20,7 @@
 
 .cardBg {
     background-color: #9eafbf;
-    padding: 1rem;
+    /* padding: 3rem; */
     display: flex;
     flex-direction: row;
     border-radius: 20px;
@@ -24,9 +30,9 @@
 
 /* SECTION ONE  */
 .section1 img {
-    width: 120px;
+    width: 130px;
     height: max-content;
-    border-radius: 100%;
+    border-radius: 1em;
     margin: .5rem;
 }
 
@@ -43,12 +49,15 @@
 }
 
 .socialMedList {
-    font-size: 12px;
-    line-height: .5;
-    margin: .5rem;
+    display: flex;
+    flex-direction: row;
 }  /* END */
 
-
+.socialMedList img {
+    width: 29px;
+    border-radius: 0%;
+    gap: 3.9%;
+}
 
 /* SECTION TWO */
 .section2 {
@@ -79,6 +88,11 @@
 .techStack {
     display: flex;
     flex-direction: row;
+    width: 100%;
+}
+
+.techStack img {
+    width: 30px;
 }
 
 .imgStack {
@@ -99,6 +113,7 @@
     background-color: #607e96;
     padding: .5rem 2.2rem;
     border-radius: 15px;
+    overflow: hidden;
 }
 
 .extrasCardContent {
@@ -114,11 +129,53 @@
 .extrasCardContent h3 {
     font-size: 18px;
 }
-
 /* EXTRAS TWO */
 .extrasTwo {
     background-color: #9eafbf;
     padding: .5rem;
     text-align: center;
     border-radius: 10px;
+}
+.favMusic {
+    width: 100%;
+    height: fit-content;
+    margin-top: .5rem;
+    /* background-color: #00000013; */
+    display: flex;
+    justify-content:flex-start;
+    padding: .3rem;
+    border-radius: 10px;
+    /* background-image: url("/assets/fromscreentotheringtothepentothekingwheresmycrownthatsmyblingalwaysdramawheniring.svg"); */
+    background-position: right right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.favMusic::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    border-radius: 25px;
+    background: rgba(255, 255, 255, 0.299);
+}
+.favmusic .textArea {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-left: 10px;
+}
+.textArea p {
+    font-size: 12px;
+    font-weight: bold;
+    vertical-align: middle;
+    transform: translateY(6.8px);
+}
+.favMusic img {
+    width: 40px;
+    border-radius: 100%;
+    vertical-align: middle;
+    object-fit: cover;
 }

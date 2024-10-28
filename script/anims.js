@@ -1,3 +1,19 @@
+// Delay to execute next command
+function sleep(s){
+  return new Promise(resolve => setTimeout(resolve, s * 1000))
+}
+
+async function demo() {
+  // Goes 1st
+  gsap.to(".loadingAssetsScreen", {
+    opacity: 0,
+    duration: 0.4,
+  })
+  await sleep(2)
+  // After 2000ms / 1s delay
+  document.getElementById("assetOverlay").style.display = "none"
+}
+
 // Wait for GSAP to load
 function doAnim() {
   gsap.registerPlugin(ScrollTrigger, EaselPlugin, TextPlugin, ExpoScaleEase);
@@ -44,27 +60,8 @@ function doAnim() {
       ease: "expo.out",
     });
 }
-
-function iniapaya() {
-    const elements = document.getElementById("apaya");
-
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add("visible");
-          entry.target.classList.remove("hidden");
-        } else {
-          entry.target.classList.add("hidden");
-          entry.target.classList.remove("visible");
-        }
-      });
-    });
-
-    elements.forEach((element) => {
-      observer.observe(element);
-    });
-}
+// Cant explain. no idea tho
 document.addEventListener("DOMContentLoaded", () => {
   doAnim();
-  iniapaya();
+  demo()
 });

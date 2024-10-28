@@ -6,6 +6,25 @@
   color: #252525;
 }
 
+.loadingAssetsScreen {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  background-color: #252525;
+  color: white;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loadingAssetsScreen p {
+  text-align: center;
+  color: white;
+  font-family: 'Consolas';
+}
+
 .hr {
   background-color: #7f96aa;
   width: 12%;
@@ -13,7 +32,6 @@
   border-radius: 10px;
   margin: auto;
 }
-
 
 .intro {
   font-family: Bebas Neue;
@@ -118,16 +136,15 @@
     transparent
   );
   /* animation: scroll  40s linear infinite; */
-
 }
 
 @keyframes scroll {
-    from {
-      transform: translate(0%);
-    }
-    to {
-      transform: translate(-345%);
-    }
+  from {
+    transform: translate(0%);
+  }
+  to {
+    transform: translate(-345%);
+  }
 }
 
 .image-container {
@@ -176,7 +193,6 @@
   width: 90%;
 }
 
-
 /* CONTRIBUTORS SECTION */
 .contributorsHeader {
   margin: 1rem 0px;
@@ -218,14 +234,13 @@
   color: aliceblue;
   background-color: #406682;
   width: max-content;
-  padding: .5rem;
+  padding: 0.5rem;
   border-radius: 20px;
   text-align: end;
   height: max-content;
 }
 
 /* END */
-
 
 .creditsWrapper {
   display: flex;
@@ -251,13 +266,25 @@
 }
 
 @keyframes fadeIn {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 @keyframes fadeOut {
-  from { opacity: 1; transform: translateY(0); }
-  to { opacity: 0; transform: translateY(20px); }
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(20px);
+  }
 }
 
 .apaya {

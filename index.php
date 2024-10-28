@@ -2,6 +2,11 @@
 
   <?php include 'others/head.php'; ?>
 
+<!-- Assets load overlay -->
+<div class="loadingAssetsScreen" id="assetOverlay">
+  <p id="textID">Waiting for assets to load...</p>
+</div>
+
   <section class="one">
     <div class="container p-2 my-5">
       <div class="contentWrapper">
