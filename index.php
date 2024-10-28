@@ -41,8 +41,8 @@
   <section class="two">
 
     <?php for ($j = 2; $j <= 4; $j++) : ?>
-      <div class="container p-5 my-5">
-        <div class="contentWrapper<?= $j ?>">
+      <div class="container p-5 my-5" id="apaya">
+        <div class="contentWrapper<?= $j ?> text">
           <h1 class="header">Ini apa ya...</h1>
           <p class="text-desc<?= $j ?>">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi hic assumenda natus nam doloribus beatae repellat reiciendis, quis officiis amet sint sed laborum tempore tempora animi, aliquid fugit, explicabo provident.
@@ -62,7 +62,7 @@
 
       <h1 class="contributorsHeader">Contributors</h1>
       <div class="cProfile">
-        <img src="assets/silder.jpg" alt="dev's photo" width="150px" height="150px" style="border-radius: 100%;">
+        <img src="assets/scarybear.png" alt="dev's photo" width="150px" height="150px" style="border-radius: 100%;">
         <div class="cDesc">
           <h1 class="cName">Lorem</h1>
           <p class="cDescribe">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quis beatae ab expedita! Magni quaerat accusamus rem harum non, nisi voluptatum, neque tempore numquam minus excepturi ducimus esse. Quasi, maxime.</p>

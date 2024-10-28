@@ -1,8 +1,4 @@
-// Check if .navbar-toggler exist
-const elem = document.querySelector(".navbar");
-const hasClass = elem.classList.contains("navbar-toggler");
-
-document.addEventListener("DOMContentLoaded", () => {
+function fireAnim() {
   gsap.registerPlugin(ScrollTrigger, EaselPlugin, TextPlugin, ExpoScaleEase);
 
   var tl_nav = gsap.timeline();
@@ -32,16 +28,8 @@ document.addEventListener("DOMContentLoaded", () => {
       rotation: -20,
       stagger: 0.1,
     });
-});
-
-// Mobile
-if (hasClass == true) {
-  gsap.from(".navbar.toggler", {
-    y: -100,
-    ease: "expo.out",
-    duration: 0.5,
-  });
-  console.log("Button Exist!");
-} else {
-  console.error("Gaada jir button nya");
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+  fireAnim();
+});

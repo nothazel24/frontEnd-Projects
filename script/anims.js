@@ -1,14 +1,13 @@
 // Wait for GSAP to load
-
-gsap.registerPlugin(ScrollTrigger)
-document.addEventListener("DOMContentLoaded", () => {
+function doAnim() {
   gsap.registerPlugin(ScrollTrigger, EaselPlugin, TextPlugin, ExpoScaleEase);
   // gsap code here!
 
   // Vars
   var tl = gsap.timeline();
 
-  gsap.from(".ryo", { // teteh ryo cantik banget aduhai
+  gsap.from(".ryo", {
+    // teteh ryo cantik banget aduhai
     y: 50,
     opacity: 0,
     duration: 1,
@@ -21,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
     opacity: 0,
     ease: "expo.out",
     rotation: 10,
-    duration: 1
+    duration: 1,
   })
 
     .from(".introDesc", {
@@ -42,6 +41,30 @@ document.addEventListener("DOMContentLoaded", () => {
     .from(".sliding-wrapper", {
       y: 20,
       opacity: 0,
-      ease: "expo.out"
-    })
+      ease: "expo.out",
+    });
+}
+
+function iniapaya() {
+    const elements = document.getElementById("apaya");
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("visible");
+          entry.target.classList.remove("hidden");
+        } else {
+          entry.target.classList.add("hidden");
+          entry.target.classList.remove("visible");
+        }
+      });
+    });
+
+    elements.forEach((element) => {
+      observer.observe(element);
+    });
+}
+document.addEventListener("DOMContentLoaded", () => {
+  doAnim();
+  iniapaya();
 });

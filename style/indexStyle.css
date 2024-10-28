@@ -208,3 +208,26 @@
   font-weight: bold;
   opacity: 90%;
 }
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeOut {
+  from { opacity: 1; transform: translateY(0); }
+  to { opacity: 0; transform: translateY(20px); }
+}
+
+.apaya {
+  opacity: 0;
+  transition: opacity 0.5s, transform 0.5s;
+}
+
+.apaya.visible {
+  animation: fadeIn 0.5s forwards;
+}
+
+.apaya.hidden {
+  animation: fadeOut 0.5s forwards;
+}
