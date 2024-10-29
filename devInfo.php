@@ -14,11 +14,15 @@
                 </div>
 
                 <div class="section2">
-                    <img src="assets/scarybear.png" alt="devFurry" class="devPfp" width="80px" height="80px">
-                    <h3>Dev Name</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint hic maxime, doloribus porro
-                        repellat temporibus consequuntur quod minus cumque, sequi deleniti corporis inventore adipisci
-                        suscipit magnam distinctio nesciunt quia dolorem!</p>
+                    <div class="descRow">
+                        <img src="assets/scarybear.png" alt="devFurry" class="devPfp" width="90px" height="90px">
+                        <div class="descColumn">
+                            <h3>Dev Name</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint hic maxime, doloribus porro
+                                repellat temporibus consequuntur quod minus cumque, sequi deleniti corporis inventore adipisci
+                                suscipit magnam distinctio nesciunt quia dolorem!</p>
+                        </div>
+                    </div>
 
                     <div class="section3">
                         <h5>My Tech Stack</h5>
@@ -30,7 +34,7 @@
                             <img src="assets/scarybear.png" alt="#" class="imgStack">
                         </div>
                     </div> <!-- SECTION 3 -->
-                    
+
                     <div class="favMusic">
                         <img src="assets/epic.jpg" alt="epic" class="img">
                         <div class="textArea">
@@ -75,7 +79,8 @@
         </section>
 
     </div> <!-- CONTAINER -->
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
 
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
     <script src="script/linggangguliguliguliwachalingganggulingganggu.js"></script>
+
     <?php include 'others/footer.php'; ?>

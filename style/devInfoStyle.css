@@ -1,9 +1,3 @@
-.line {
-    width: 90%;
-    height: 0.3px;
-    background-color: #2a3a46;
-}
-
 .header {
     text-align: center;
     padding: 0px .5rem;
@@ -35,12 +29,10 @@
     width: 100%;
     height: fit-content;
     margin-top: .5rem;
-    /* background-color: #00000013; */
     display: flex;
     justify-content:flex-start;
     padding: .3rem;
     border-radius: 10px;
-    /* background-image: url("/assets/fromscreentotheringtothepentothekingwheresmycrownthatsmyblingalwaysdramawheniring.svg"); */
     background-position: right right;
     background-size: cover;
     background-repeat: no-repeat;
@@ -105,16 +97,6 @@
     font-size: 15px;
 }
 
-.socialMedList {
-    display: flex;
-    flex-direction: row;
-}  /* END */
-
-.socialMedList img {
-    width: 29px;
-    border-radius: 0%;
-    gap: 3.9%;
-}
 
 /* SECTION TWO */
 .section2 {
@@ -125,6 +107,23 @@
     margin: .5rem;
     font-size: 12px;
 }
+
+.descRow {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    align-items: center;
+}
+
+.descColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.descRow img {
+    border-radius: 100%;
+}
+
 
 /* SECTION THREE */
 .section3 {

@@ -2,10 +2,10 @@
 
   <?php include 'others/head.php'; ?>
 
-<!-- Assets load overlay -->
-<div class="loadingAssetsScreen" id="assetOverlay">
-  <p id="textID">Waiting for assets to load...</p>
-</div>
+  <!-- Assets load overlay -->
+  <div class="loadingAssetsScreen" id="assetOverlay">
+    <p id="textID">Waiting for assets to load...</p>
+  </div>
 
   <section class="one">
     <div class="container p-2 my-5">
@@ -47,9 +47,9 @@
 
     <?php
     $contents = [
-      ["title" => "Why We Build This?", "content" => "Lorem ipsum dolor sit amet"],
-      ["title" => "Our Goals", "content" => "1000 baby oils at Diddy's house"],
-      ["title" => "Follow Us!", "content" => "omke gams omke gams omke gams"]
+      ["title" => "Why We Build This?", "content" => "The purpose of making this is to hone our skills, strengthen all the material taught at school and implemented by making this website, and train our cooperation to be able to work in groups."],
+      ["title" => "Our Goals", "content" => "What we aim to do in this project is to be able to work together in a group, expand our experience, and as a medium to show what we can do. "],
+      ["title" => "Follow Us!", "content" => "Feel free to join us!. You can click the button below the footer...."]
     ];
 
     $elementCount = count($contents);
@@ -74,21 +74,33 @@
 
   <div class="hr"></div>
 
-  <!-- UNCOMPLETED SECTION -->
+
   <section class="three" style="background-color: #bec9d4;">
     <div class="container p-5 my-5">
 
       <h1 class="contributorsHeader">Contributors</h1>
 
-      <?php for ($e = 0; $e <= 2; $e++) : ?>
+      <?php
+      $contributors = [
+        ["pfp" => "assets/pfp/nzddXD.jpg", "name" => "Dev Furry", "desc" => "Lingganguliguliguliwachalinggangulingganggu", "links" => "#"],
+        ["pfp" => "assets/pfp/nothazel24.jpg", "name" => "nothazel24", "desc" => "Dev nguwawor inimah", "links" => "#"],
+        ["pfp" => "assets/pfp/azvlyy.jpg", "name" => "azvlyy", "desc" => "Designer sepuh aowkoakwokoak", "links" => "#"]
+      ];
+
+      $countContributors = count($contributors);
+
+      for ($e = 0; $e <= 2; $e++) :
+        $currentIndex = ($e - 0) % $countContributors;
+        $currentContents = $contributors[$currentIndex];
+      ?>
         <div class="cProfile<?= $e ?>">
-          <img src="assets/silder.jpg" alt="dev's photo" width="150px" height="150px" style="border-radius: 100%;">
+          <img src=<?= $currentContents['pfp'] ?> alt="dev's photo" width="150px" height="150px" style="border-radius: 100%;">
           <div class="cDesc">
-            <h1>Atmin Ganteng</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quis beatae ab expedita! Magni quaerat accusamus rem harum non, nisi voluptatum, neque tempore numquam minus excepturi ducimus esse. Quasi, maxime.</p>
+            <h1><?= $currentContents['name'] ?></h1>
+            <p><?= $currentContents['desc'] ?></p>
 
             <div class="contributorsButton">
-              <a href="devInfo.php" class="cButton">
+              <a href=<?= $currentContents['links'] ?> class="cButton">
                 <p>See Profile</p>
               </a>
             </div>
