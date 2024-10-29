@@ -33,12 +33,6 @@
                             <img src="assets/scarybear.png" alt="#" class="imgStack">
                         </div>
                     </div> <!-- SECTION 3 -->
-                    <div class="favMusic">
-                        <img src="assets/epic.jpg" alt="epic" class="img">
-                        <div class="textArea">
-                            <p>KSI - Thick of It</p>
-                        </div>
-                    </div>
                 </div> <!-- SECTION 2 -->
 
             </div> <!-- CARD BG -->
@@ -79,6 +73,13 @@
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla dicta, explicabo sit iusto in quasi
                     magni! Molestias dolorem necessitatibus qui ducimus cupiditate ex? Atque omnis commodi rerum
                     architecto pariatur consequuntur!</p>
+                
+                <div class="favMusic">
+                    <img src="assets/epic.jpg" alt="epic" class="img">
+                    <div class="textArea">
+                        <p>KSI - Thick of It</p>
+                    </div>
+                </div>
             </div>
         </section>
 
