@@ -30,13 +30,14 @@
                             <img src="assets/scarybear.png" alt="#" class="imgStack">
                         </div>
                     </div> <!-- SECTION 3 -->
-
+                    
                     <div class="favMusic">
                         <img src="assets/epic.jpg" alt="epic" class="img">
                         <div class="textArea">
                             <p>KSI - Thick of It</p>
                         </div>
                     </div>
+
                 </div> <!-- SECTION 2 -->
 
             </div> <!-- CARD BG -->
