@@ -6,7 +6,7 @@
   color: #252525;
 }
 
-/* Niggas fighting */
+/* Loading Screen */
 .loadingAssetsScreen {
   width: 100%;
   height: 100vh;
@@ -14,16 +14,90 @@
   top: 0;
   background-color: #252525;
   color: white;
-  z-index: 2;
+  z-index: 4;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+/* Popup */
+.popup {
+  position: fixed;
+  display: flex;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 3;
+  justify-content: center;
+  align-items: center;
+  background-color: #2525252e;
+}
+
+.popup-content {
+  background-color: rgb(241, 241, 241);
+  padding: 25px;
+  margin: auto;
+  text-align: center;
+  position: absolute;
+  width: 50%;
+  border-radius: 10px;
+  box-shadow: -5px 5px 0 rgba(0, 0, 0, 0.082); /* Bottom-left shadow */
+}
+
+.popup-content::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 10px;
+  border-radius: 20px 20px 0 0;
+  background-color: #406682;
+}
+
+.popup-content label {
+  padding: 10px;
+  margin: 10px;
+}
+
+.label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.3%
+}
+
+.popup-content input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+}
+
+.popup-content .gotIt {
+  padding: 10px;
+  border: 0.1px solid #2c2c2c;
+  border-radius: 10px;
+  width: 100%;
+  transition: .2s;
+}
+
+.popup-content .gotIt:hover {
+  background-color: #252525;
+  color: white;
+  scale: 0.98;
+}
+
+@media (max-width: 574px) {
+  .popup-content{
+    width: 100%;
+    border-radius: 0;
+  }
+}
+
 .loadingAssetsScreen p {
   text-align: center;
   color: white;
-  font-family: 'Consolas';
+  font-family: "Consolas";
 }
 
 .hr {

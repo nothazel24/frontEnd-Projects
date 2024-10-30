@@ -9,7 +9,7 @@ async function demo() {
     opacity: 0,
     duration: 0.4,
   })
-  await sleep(2)
+  await sleep(1)
   // After 2000ms / 1s delay
   document.getElementById("assetOverlay").style.display = "none"
 }

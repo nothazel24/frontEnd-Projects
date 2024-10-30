@@ -7,6 +7,20 @@
     <p id="textID">Waiting for assets to load...</p>
   </div>
 
+  <!-- Notice Popup -->
+  <div class="popup" id="bgPopup">
+    <div class="popup-content" id="popup">
+      <h1>Notice</h1>
+      <div class="hr my-3"></div>
+      <p>This site is still on development, so any visual glitches and obstructed elements could be found in this site.
+        Don't worry, we'll fix it as soon as possible!</p>
+      <label class="label">
+        <input type="checkbox" id="dontRemind"> Don't show this again
+      </label><br>
+      <button type="button" class="gotIt" id="gotIt">Got it</button>
+    </div>
+  </div>
+
   <section class="one">
     <div class="container p-2 my-5">
       <div class="contentWrapper">
@@ -54,10 +68,10 @@
 
     $elementCount = count($contents);
 
-    for ($j = 2; $j <= 4; $j++) :
+    for ($j = 2; $j <= 4; $j++):
       $currentIndex = ($j - 2) % $elementCount;
       $currentElement = $contents[$currentIndex];
-    ?>
+      ?>
       <div class="container p-5 my-5">
         <div class="contentWrapper<?= $j ?>">
           <h1 class="header"><?= $currentElement['title'] ?></h1>
@@ -82,19 +96,20 @@
 
       <?php
       $contributors = [
-        ["pfp" => "assets/pfp/nzddXD.jpg", "name" => "Dev Furry", "desc" => "Lingganguliguliguliwachalinggangulingganggu", "links" => "#"],
-        ["pfp" => "assets/pfp/nothazel24.jpg", "name" => "nothazel24", "desc" => "Dev nguwawor inimah", "links" => "#"],
-        ["pfp" => "assets/pfp/azvlyy.jpg", "name" => "azvlyy", "desc" => "Designer sepuh aowkoakwokoak", "links" => "#"]
+        ["pfp" => "https://avatars.githubusercontent.com/u/154614176?v=4", "name" => "NzddXD", "desc" => "Duh furry bamke lucu bgt sumpah plis jadi fandom boyskisser bareng le", "links" => "#"],
+        ["pfp" => "https://avatars.githubusercontent.com/u/157547885?v=4", "name" => "nothazel24", "desc" => "Dev nguwawor inimah", "links" => "#"],
+        ["pfp" => "https://avatars.githubusercontent.com/u/140289917?v=4", "name" => "azvlyy", "desc" => "Designer sepuh aowkoakwokoak", "links" => "#"]
       ];
 
       $countContributors = count($contributors);
 
-      for ($e = 0; $e <= 2; $e++) :
+      for ($e = 0; $e <= 2; $e++):
         $currentIndex = ($e - 0) % $countContributors;
         $currentContents = $contributors[$currentIndex];
-      ?>
+        ?>
         <div class="cProfile<?= $e ?>">
-          <img src=<?= $currentContents['pfp'] ?> alt="dev's photo" width="150px" height="150px" style="border-radius: 100%;">
+          <img src=<?= $currentContents['pfp'] ?> alt="dev's photo" width="150px" height="150px"
+            style="border-radius: 100%;">
           <div class="cDesc">
             <h1><?= $currentContents['name'] ?></h1>
             <p><?= $currentContents['desc'] ?></p>
@@ -142,6 +157,7 @@
 
   <script src="script/anims.js"></script>
   <script src="script/navbarAnims.js"></script>
+  <script src="script/popupscript.js"></script>
   <!-- WRAPPER DIVISION -->
 
   <!-- <img src="assets/waveFooter.svg" alt="footerWave" class="wave"> -->
